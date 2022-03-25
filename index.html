@@ -10,56 +10,53 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div>
+    <div class="global-cont">
         <div class="main">
-            <img src="/assets/eijiro-cute.jpg">
+            <img src="/assets/eijiro-cute.png">
             <div>
                 <h1>@winterizi</h1>
                 <p>"don't go through life, grow through life."</p>
-                <button>about</button>
-                <button>rules</button>
-                <button>stan list</button>
+                <br>
+                <button onclick="show(about)">about</button>
+                <button onclick="show(rules)">rules</button>
+                <button onclick="show(stanlist)">stan list</button>
             </div>
         </div>
 
-        <div class="about">
-            <div>
-                <img src="">
-                <p>hi i'm rosa i use she her pronouns. intj. i'm nineteen. peruvian & lesbian.</p>
-            </div>
-            <div class="conectors">
-                <span></span>
-                <span></span>
+        <div class="about" hidden>
+            <div class="me-info">
+                <div class="red"></div>
+                    <img src="/assets/eijiro.png">
+                    <br>
+                    <h2>maria !</h2>
+                    <br>
+                    <p>hi i'm maria i use she her pronouns. intj. i'm nineteen. peruvian & lesbian.</p>
             </div>
             <div class="info-box">
                 <h2>likes</h2>
-                <p><span class="highlight">bunnies. peace. cartoons. </span>relaxing music. games. animes. programming.</p>
-            </div>
-            <div class="conectors">
-                <span></span>
-                <span></span>
+                <p>bunnies. peace. sun. cartoons. relaxing music. games. animes. programming.</p>
             </div>
             <div class="info-box">
                 <h2>dislikes</h2>
-                <p>mint. fanwars. insects. chemistry. rainy weather. <span class="highlight">problematic ppl.</span></p>
+                <p>mint. fanwars. insects. chemistry. rainy weather. problematic ppl.</p>
             </div>
         </div>
         
-        <div class="rules">
+        <div class="rules" hidden>
             <div class="info-box">
-                <h2>before you follow</h2>
-                <p>might be ia. not spoiler free. slow at dms. this isn't just a fanacc. spam the tl sometimes. semi-selective. sb to unfollow.</p>
+                <h2>byf</h2>
+                <p>might be ia. not spoiler free. slow at dms. this isn't just a fanacc. spam the tl sometimes. semi-selective follow. sb to unf.</p>
             </div>
             <div class="info-box">
-                <h2>don't follow if</h2>
+                <h2>dfi</h2>
                 <p>-15. support woojin. pansexual. problematic. anti aespa. rude. insensitive. __phobe. pro-life. u hate one pice/naruto. </p>
             </div>
         </div>
 
-        <div class="stanlist">
+        <div class="stanlist" hidden>
             <div class="info-box">
                 <h2>love zone</h2>
-                <p>eijiro kirishima. mirio. maki. bnha. one piece. naruto. jujutsu kaisen. tokyo revengers. blue lock. <span>winter/minjeong. aespa. chen. </span></p>
+                <p>eijiro kirishima. mirio. maki. bnha. one piece. naruto. jujutsu kaisen. tokyo revengers. blue lock. winter/minjeong. aespa. chen. </p>
             </div>
         </div>
     </div>
